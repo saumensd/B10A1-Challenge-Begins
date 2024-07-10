@@ -21,7 +21,7 @@ body {
 }
 
 #why-webdevlopment-section {
-    width: 1200px;
+    width: 75rem;
     margin: auto;
     background-color: rgb(253, 248, 248);
     padding: 3rem;
@@ -42,6 +42,7 @@ body {
     border-radius: 1rem;
     margin: 1rem;
     padding: 0.5rem;
+    align-items: center;
 }
 .tec-img{
     margin-right: 2rem;
@@ -49,4 +50,41 @@ body {
 }
 #current-target{
     text-align: center;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(247, 241, 235);
+    margin-top: 2rem;
+
+}
+footer>div>a{
+    margin-left: 1rem;
+}
+#form-support{
+    background-image: url('./assets/handshake.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75rem;
+    height: 21.8rem;
+    margin: auto;
+    border-radius: 1rem;
+}
+#input-field{
+    width: 20rem;
+    height: 2rem;
+    border: 0.1rem solid rgb(41, 16, 16);
+    border-radius: 0.5rem;
+}
+#input-field-button{
+    height: 2.2rem;
+    border: 0.1rem solid rgb(41, 16, 16);
+    border-radius: 0.5rem;
+}
+#current-target-section{
+    width: 75rem;
+    margin: auto;
 }
