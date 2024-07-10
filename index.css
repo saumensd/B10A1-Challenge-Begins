@@ -38,8 +38,15 @@ body {
 }
 .terget-tec{
     display: flex;
+    border: 1px solid red;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 0.5rem;
 }
 .tec-img{
     margin-right: 2rem;
     margin-left: 1rem;
+}
+#current-target{
+    text-align: center;
 }
