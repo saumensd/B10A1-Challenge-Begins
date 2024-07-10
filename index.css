@@ -1,0 +1,36 @@
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#header{
+    background-image: url('./assets/Hero-bg.png');
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.why-web-development{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 70rem;
+}
+#why-webdevlopment-section{
+    width: 1200px;
+margin: auto;
+background-color: rgb(253, 248, 248);
+padding: 3rem;
+}
+#web-dev-header{
+    text-align: center;
+}
+#my-inspiration{
+   /* width: 1200px; */
+   /* margin: auto; */
+   display: flex;
+   flex-direction: column;
+   /* justify-content: center; */
+   align-items: center;
+}
